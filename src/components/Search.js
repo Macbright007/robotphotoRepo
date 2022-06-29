@@ -1,4 +1,4 @@
-import { Form } from "./styles"
+import { Form } from "./uploads/uploadStyles"
 
 const Search = () => {
     return(
