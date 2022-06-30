@@ -1,6 +1,6 @@
 // import './App.css';
 import PhotoLists from './components/photolist/PhotoLists';
-import Search from './components/Search';
+// import Search from './components/Search';
 import Navbar from './components/nav/Navbar';
 import Uploads from './components/uploads/Uploads';
 import {
@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
     <Navbar />
-    <Search />
+    {/* <Search /> */}
       <Routes>
         <Route path="/" element={<PhotoLists />} />
         <Route path="/upload-image" element={<Uploads />} />
