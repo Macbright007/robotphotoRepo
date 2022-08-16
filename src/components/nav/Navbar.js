@@ -3,7 +3,7 @@ import { FaHome } from "react-icons/fa";
 import { MdAddPhotoAlternate } from "react-icons/md";
 import { BiCloudUpload } from "react-icons/bi";
 import { Link } from "react-router-dom";
-import Search from "../Search"
+// import Search from "../Search"
 
 const Navbar = () => {
   return (
@@ -21,7 +21,7 @@ const Navbar = () => {
         </Link>
       </Navitems>
     </Navcontainer>
-    <Search />
+    {/* <Search /> */}
     </>
   );
 };
