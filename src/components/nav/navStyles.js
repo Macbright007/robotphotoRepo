@@ -5,8 +5,8 @@ export const Navcontainer = styled.div`
     background: rgba(0, 0, 0, 0.803);
     padding: 30px;
     position: fixed;
+    top: 0;
     width: 100%;
-    margin-top: -150px;
 `
 
 export const Navitems = styled.div`

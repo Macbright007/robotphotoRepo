@@ -4,7 +4,7 @@ const Card = ({pic}) => {
     return (
         <CardContainer>
             <ImgCard>
-                <img src={pic.img} alt="pic"/>
+                <img src={pic.image} alt="pic"/>
             </ImgCard>
             <CardContent>
                 <p>{pic.title}</p>

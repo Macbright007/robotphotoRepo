@@ -7,7 +7,7 @@ export const Form = styled.form`
     margin-top: 150px;
 
 
-    input[type=search]{
+    input[type=text]{
         padding: 10px;
         border-color: rgba(0, 0, 0, 0.803);
         border-radius: 10px;
@@ -25,7 +25,7 @@ export const FormCont = styled.form`
     box-sizing: border-box;
     margin: auto;
     padding: 20px;
-    // margin-top: 20px;
+    margin-top: 7rem;
     button{
         width:100%;
         max-width: 300px;
