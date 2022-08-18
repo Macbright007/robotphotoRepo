@@ -16,6 +16,7 @@ export const ImgCard = styled.div`
     height: 40vh;
     width: 100%;
     max-width: 230px;
+    position: relative;
   
 
     img{

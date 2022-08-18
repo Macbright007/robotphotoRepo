@@ -17,7 +17,7 @@ const Navbar = () => {
           <MdAddPhotoAlternate />
         </Link>
         <Link to="/upload-image/">
-          <BiCloudUpload />
+          <BiCloudUpload  />
         </Link>
       </Navitems>
     </Navcontainer>
