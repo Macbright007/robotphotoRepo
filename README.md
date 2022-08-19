@@ -34,6 +34,7 @@ The aim of the project is to help the developer get a better understading of Rea
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Contributor/Reviewer
+- Nwachukwu Bright
 - Boro Omokugbo Joseph 
 
 
