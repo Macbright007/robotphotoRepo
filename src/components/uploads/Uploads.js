@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import Axios from "axios";
-import { ImUpload3 } from "react-icons/im";
 import { FormCont, InnerForm, InnerContent } from "./uploadStyles";
+import { useNavigate } from "react-router-dom";
 import { URL } from "../photolist/PhotoLists";
+import { ImUpload3 } from "react-icons/im";
+import { useState } from "react";
+import Axios from "axios";
 
 const Uploads = () => {
   const [title, setTitle] = useState('');
@@ -34,10 +34,7 @@ const Uploads = () => {
       data.append('title', title)
       data.append('image', image)
       const result = await Axios.post(URL, data);
-      if (result?.status === 200) {
-        setLoading(false);
-        return navigate("/", { replace: true });
-      }
+      navigate("/", { replace: true });
     } catch {
       setLoading(false);
     }
