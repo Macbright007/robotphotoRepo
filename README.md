@@ -17,15 +17,14 @@ The aim of the project is to help the developer get a better understading of Rea
  * react hooks: for state manipulation
  * axios: for making Api calls
  * An API: 
-    - GET: "" 
-    - POST: "" 
-    - DELETE:
-    - PATCH:
+    - GET: "picture-searches.herokuapp.com/api/pictures/" 
+    - POST: "picture-searches.herokuapp.com/api/pictures/" 
+    - DELETE:"picture-searches.herokuapp.com/api/pictures/:id/"
 
 
 # Getting Started with the App
 
-* Ensure node and git is installed on your system
+* Ensure node and git is installed on your system. visit https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac to learn how to install node and https://github.com/git-guides/install-git to learn how to install git
 * clone the repo on your system locally with the command below or down the project zip
   - git clone url_name
 * Install all dependences used with the following command
