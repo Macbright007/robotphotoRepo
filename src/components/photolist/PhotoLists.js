@@ -54,7 +54,7 @@ const PhotoLists = () => {
   //   function to delete picture
   const handleDelete = async ({ id }) => {
     await Axios.delete(URL + id);
-    setPhotos(photos.filter((pic) => pic.id !== id));
+    setPhotos(photos.filter((pic) => pic.id !== id)); 
   };
 
   return (
